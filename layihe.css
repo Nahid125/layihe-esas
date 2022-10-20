@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@media(min-width:1280px){
 .everybody{
     font-family: "Roboto", sans-serif;
     width: 1440px;
@@ -179,10 +180,11 @@ header{
     margin-right: 95px;
     margin-top: 0px;
 }
+}
 /*********************************************************************************************************************/
                                        /*TABLET*/
 /*********************************************************************************************************************/
-@media(max-width:1440px){
+@media(max-width:1279px) and (min-width:992px){
     .everybody{
         font-family: "Roboto", sans-serif;
         width: 834px;
@@ -372,11 +374,11 @@ header{
 /*********************************************************************************************************************/
                                                     /*MOBILE*/
 /*********************************************************************************************************************/
-@media(max-width:834px){
+@media(max-width:991px) and (min-width:320px){
 .everybody{
     font-family: "Roboto", sans-serif;
     width: 375px;
-    height: 3700px;
+    height: 4524px;
     background: #FFFFFF;
     margin-left : 35px;
     margin-right: 35px;
@@ -385,11 +387,12 @@ header{
 .toplogo{
     width: 52.19px;
     height: 30.75px;
+    margin-bottom: 0px;
 }
 header{
     display: flex;
     flex-direction: row;
-    margin-top: 97px;
+    margin-top: 44px;
     margin-bottom: 0px;
     align-items: baseline;
     margin-right: 12px ;
@@ -397,6 +400,11 @@ header{
 .mini{
     width: 60.58px;
     height: 14.91px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115%;
     margin-right: 11.65px;
 }
 .globe{
@@ -422,15 +430,15 @@ header{
     display: flex;
     flex-direction: column;
 }
-.kart{
-}
 .fbig{
     width: 143px;
     height: 177px;
+    margin-left: 165px;
 }
 .card{
     width: 225.36px;
     height: 93.19px;
+    margin-left: 2.98px;
 }
 .paragraph{
     width: 212.4px;
@@ -468,6 +476,8 @@ header{
 .big{
     width: 172px;
     height: 162px;
+    margin-top: 55px;
+    margin-left: 65px;
 }
 .paragraph2{
     width: 308.47px;
@@ -481,6 +491,7 @@ header{
 .title2{
     width: 170.08px;
     height: 43.34px;
+    margin-top: 75.6px;
 }
 .title{
     width: 69.9px;
@@ -490,6 +501,7 @@ header{
     font-weight: 700;
     font-size: 12px;
     line-height: 130%;
+    margin-top: 4.5px;
 }
 .p1{
     width: 86px;
